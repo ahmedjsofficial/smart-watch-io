@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Watch App | Home</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<!-- swiper-library -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="#"><img src="./Images/navbrand.png" class="img-fluid __logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+						<li class="nav-item"><a class="nav-link" href="#Overview">Overview</a></li>
+						<li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#Features">Features</a></li>
+						<li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+					</ul>
+					<form class="d-flex __navsearch">
+						<input class="form-control nav-search me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-dark" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main" id="Overview">
+		<div class="container">
+			<div class="main-content">
+				<div class="main-text">
+					<h1 class="Righteous">smartwatch AI 9</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing eiusmod tempor</p>
+					<a href="#" class="btn btn-dark">Explore More</a>
+				</div>
+				<div class="main-img col-auto">
+					<img src="./Images/SmartwatchHome.png" alt="main/img" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<section class="pt-5 pb-5 bg-black" id="About">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-6 col-sm-10 col-10 mx-lg-auto mx-md-auto mx-sm-auto mx-auto order-2 order-lg-1">
+					<div class="web-text">
+						<img src="./Images/about.png" class="img-fluid" alt="img/box">
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-6 col-sm-10 col-10 mx-lg-auto mx-md-auto mx-sm-auto mx-auto order-1 order-lg-2">
+					<div class="web-text">
+						<h1 class="Righteous">made to attract people</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-outline-light btn-margin">Find US More</a>
+							<a href="#" class="btn btn-outline-light btn-margin">Where to buy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="pt-5 pb-5" id="Features">
+		<div class="container-fluid">
+			<div class="price-title text-center">
+				<h1 class="Righteous">Which Apple Watch is right for you?</h1>
+				<div class="btn-group">
+					<a href="#" class="btn btn-link">Compare all models</a>
+					<a href="#" class="btn-link btn">Get help chossing. Contact us</a>
+				</div>
+			</div>
+			<div class="pricing-content">
+				<div class="row gy-4">
+					<script type="text/javascript">
+
+						const pricingAPI = [
+							{
+								text: "The most advanced Apple Watch yet, with a blood oxygen sensor and app, the ECG app, and the Always-On Retina display.",
+								info: "GPS + Celluar",
+								price: "From $499"
+							},{
+								text: "Features the same larger display size as Series 6, fall detection, a compass, and an always-on altimeter.",
+								info: "GPS + Celluar",
+								price: "From $399"
+							},{
+								text: "The core fitness, health, and connectivity features of Apple Watch.",
+								info: "GPS",
+								price: "From $199"
+							},{
+								text: "The core fitness, health, and connectivity features of Apple Watch.",
+								info: "GPS",
+								price: "From $199"
+							}
+						];
+						console.log(pricingAPI)
+							
+					</script>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="pt-5 pb-5 bg-black">
+		<div class="container">
+			<div class="row"> 
+				<div class="col-lg-7 col-md-6 col-sm-10 col-10 mx-lg-auto mx-md-auto mx-sm-auto mx-auto order-lg-1 order-md-2"> <!--order-2 order-lg-1-->
+					<div class="web-text" style="align-items: flex-end;">
+						<h1 class="Righteous">made to attract people</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+						<div class="btn-group">
+							<a href="#" class="btn btn-outline-light btn-margin">Find US More</a>
+							<a href="#" class="btn btn-outline-light btn-margin">Where to buy</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-10 col-10 mx-lg-auto mx-md-auto mx-sm-auto mx-auto order-lg-2 order-md-1"><!--order-1 order-lg-2-->
+					<div class="web-text">
+						<img src="./Images/balckwatch.png" class="img-fluid" alt="img/box">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-5 pb-5" id="Services">
+		<div class="container">
+			<div class="store-text text-center">
+				<h1 class="Righteous"><img src="./Images/navbrand.png" alt="img/box" class="img-fluid" /> SMARTWATCH</h1>
+				<h4>artificial intelligence 9</h4>
+				<p class="text-px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="btn-group mt-3">
+					<a href="#" class="btn btn-outline-dark btn-margin">Where to Buy ></a>
+					<a href="#" class="btn btn-outline-dark btn-margin">Find Out More ></a>
+				</div>
+			</div>
+			<div class="store-slides">
+				<div class="swiper-container container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide1.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Silver Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide2.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Golden Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide3.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Black Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide4.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | White Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide5.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Gray Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide6.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | White Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide1.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Silver Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide3.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Black Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide4.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Silver Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img"><img src="./Images/slide8.png" alt="slide/imgs" class="img-fluid"></div>
+							<div class="slide-text d-flex align-items-center justify-content-center flex-column">
+								<h5><b class="Righteous">SMARTWATCH </b> | Yellow Edition</h5>
+								<a href="#" class="btn-link">Learn More ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bg-black">
+		<div class="container">
+			<div class="advertise-text">
+				<h1 class="text-white">Just Play Have a Fun Enjoy the Game</h1>
+				<a href="#" class="btn btn-outline-light">Download Now</a>
+			</div>
+		</div>
+	</div>
+
+	<section class="pt-5 pb-5" id="Contact">
+		<div class="stay-wrapper">
+			<div class="stay-img">
+				<img src="./Images/adbanner.png" alt="img/alt" class="img-fluid"/>
+			</div>
+			<div class="stay-input">
+				<div class="col-lg-5 col-md-6 col-sm-8 col-10 mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+					<div class="input-text text-center">
+						<h1 class="Righteous">Stay Updated</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="btn-group mt-3">
+							<a href="#" class="btn btn-outline-primary btn-margin">Where to Buy ></a>
+							<a href="#" class="btn btn-outline-primary btn-margin">Find Out More ></a>
+						</div>		
+					</div>
+					<form class="d-flex newform">
+						<input class="form-control me-2" type="email" placeholder="Email Adress" aria-label="Email" required="">
+						<button class="btn-form w-50" type="submit">Get Started</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="smart-footer">
+		<div class="container footer-container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-6 mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+					<div class="footer-nav">
+						<ul>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Investor Relation</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Speed Test</a></li>
+							<li><a href="#">SmartWatch AI 9</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-6 mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+					<div class="footer-nav">
+						<ul>
+							<li><a href="#">Help Center</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Cookie Preference</a></li>
+							<li><a href="#">Legal Notices</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-6 mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+					<div class="footer-nav">
+						<ul>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Ways to Watch</a></li>
+							<li><a href="#">Corporate Information</a></li>
+							<li><a href="#">KFlix Originals</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-6 mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+					<div class="footer-nav">
+						<ul>
+							<li><a href="#">Media Center</a></li>
+							<li><a href="#">Terms of USe</a></li>
+							<li><a href="#">Contact US</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<!-- cdn-swiper.js -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+			
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 4,
+		spaceBetween: 10,
+		loop: true,
+		breakpoints: {
+			280: {
+				slidesPerView: 1,
+				spaceBetween: 12
+			},
+			320: {
+				slidesPerView: 1,
+				spaceBetween: 12
+			},
+			375: {
+				slidesPerView: 1,
+				spaceBetween: 7
+			},
+			425: {
+				slidesPerView: 2,
+				spaceBetween: 7
+			},
+			500: {  // when window width is >= 480px
+				slidesPerView: 2,
+				spaceBetween: 10
+			},  
+			768: {     // when window width is >= 640px
+				slidesPerView: 3,
+				spaceBetween: 11
+			},
+			991: {
+				slidesPerView: 4,
+				spaceBetween: 5
+			}
+		}
+	});
+
+	</script>
+</body>
+</html>
